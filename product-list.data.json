@@ -1,0 +1,5424 @@
+[
+  {
+    "id": "1",
+    "createdBy": "admin",
+    "createdOn": "2024-01-01T00:00:00Z",
+    "updatedOn": "2024-01-02T00:00:00Z",
+    "updatedBy": "admin",
+    "productType": "Prescription Medication",
+    "isActive": true,
+    "locationId": "loc1",
+    "locationIds": ["loc1"],
+    "locations": ["Shelf A", "Refrigerator"],
+    "name": "Amoxil",
+    "description": "Wht Cap \"AMX/500\"|'AMOXIL'",
+    "hasInventory": true,
+    "onHandQuantity": 100,
+    "allocationThreshold": 10,
+    "lastAdjustmentDate": "2024-01-01T00:00:00Z",
+    "drugIdentificationNumber": "860975",
+    "brandName": "Amoxil",
+    "generic": "Amoxicillin",
+    "equivalentTo": "Amoxicillin trihydrate",
+    "schedule": "Schedule I",
+    "form": "Capsule - Immediate Release",
+    "route": "Oral",
+    "strength": 500,
+    "unitOfStrength": "mg",
+    "quickCode": ".AMX500",
+    "imageUrl": "./assets/images/drugs/amoxicillin.png",
+    "others": {
+      "isReportable": true,
+      "priceGroup": "Discounted",
+      "department": "Cardiology",
+      "genericType": "Generic Multi Source",
+      "followUp": "3 months",
+      "feeForService": "No",
+      "defaultSIG": "Take one tablet daily",
+      "handlingInstructions": "sublingual tablets should be handled with clean dry hands",
+      "marketingMessage": "Effective for heart conditions",
+      "class": "81.21.80.00",
+      "clinicalForm": "Tablet",
+      "oralWritten": "Oral"
+    },
+    "clinicalFlags": {
+      "isWardStock": false,
+      "isPrintComplianceCalendar": true,
+      "isTrial": false,
+      "isEligibleForCoupon": true
+    },
+    "manufacturer": {
+      "name": "Pharma Inc."
+    },
+    "packInfo": [
+      {
+        "size": 20,
+        "unit": "cap",
+        "description": "20 capsules pack",
+        "UPC": "0123456789012",
+        "onHandQuantity": 50,
+        "minOrderQuantity": 5,
+        "maxOrderQuantity": 200,
+        "isPackActive": true,
+        "packStatus": "Stocked Item",
+        "isCounterAvailable": false,
+        "defaultVendor": "McKesson",
+        "quickCode": ".AMX20",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "0123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "0123456789013",
+            "isDefault": false
+          },
+          {
+            "type": "NPN",
+            "value": "0123456789014",
+            "isDefault": false
+          },
+          {
+            "type": "HDIN",
+            "value": "0123456789015",
+            "isDefault": false
+          },
+          {
+            "type": "GTIN",
+            "value": "0123456789016",
+            "isDefault": false
+          },
+          {
+            "type": "EAN",
+            "value": "0123456789017",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 5.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 4.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          },
+          {
+            "price": 7.0,
+            "priceColumn": "Retail",
+            "oldPrice": 6.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 6.0,
+            "priceColumn": "Wholesale",
+            "oldPrice": 5.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 8.0,
+            "priceColumn": "User Cost 1",
+            "oldPrice": 7.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 9.0,
+            "priceColumn": "User Cost 2",
+            "oldPrice": 8.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "M. Smith"
+          },
+          {
+            "price": 10.0,
+            "priceColumn": "User Cost 3",
+            "oldPrice": 9.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "M. Smith"
+          }
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf A",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B4",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B5",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john.doe@mckesson.com",
+            "website": "https://www.mckesson.com"
+          },
+          {
+            "name": "Health Supplies Inc.",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          }
+        ]
+      },
+      {
+        "size": 100,
+        "unit": "cap",
+        "description": "100 capsules pack",
+        "UPC": "0123456789013",
+        "onHandQuantity": 25,
+        "minOrderQuantity": 2,
+        "maxOrderQuantity": 100,
+        "isPackActive": false,
+        "packStatus": "Not Available",
+        "isCounterAvailable": false,
+        "defaultVendor": "McKesson",
+        "quickCode": ".AMX100",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "0123456789013",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "0123456789014",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 20.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 18.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          },
+          {
+            "price": 30.0,
+            "priceColumn": "Retail",
+            "oldPrice": 25.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 25.0,
+            "priceColumn": "Wholesale",
+            "oldPrice": 20.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 35.0,
+            "priceColumn": "User Cost 1",
+            "oldPrice": 30.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 40.0,
+            "priceColumn": "User Cost 2",
+            "oldPrice": 35.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "M. Smith"
+          },
+          {
+            "price": 45.0,
+            "priceColumn": "User Cost 3",
+            "oldPrice": 40.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "M. Smith"
+          }
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf A",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john@mk.com",
+            "website": "https://www.mckesson.com"
+          }
+        ]
+      },
+      {
+        "size": 500,
+        "unit": "cap",
+        "description": "500 capsules pack",
+        "UPC": "0123456789014",
+        "onHandQuantity": 10,
+        "minOrderQuantity": 1,
+        "maxOrderQuantity": 50,
+        "isPackActive": true,
+        "packStatus": "Discontinued",
+        "isCounterAvailable": false,
+        "defaultVendor": "Vendor C",
+        "quickCode": ".AMX500",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "0123456789014",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "0123456789015",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 80.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 70.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          },
+          {
+            "price": 120.0,
+            "priceColumn": "Retail",
+            "oldPrice": 100.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 100.0,
+            "priceColumn": "Wholesale",
+            "oldPrice": 80.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 140.0,
+            "priceColumn": "User Cost 1",
+            "oldPrice": 120.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 160.0,
+            "priceColumn": "User Cost 2",
+            "oldPrice": 140.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "M. Smith"
+          },
+          {
+            "price": 180.0,
+            "priceColumn": "User Cost 3",
+            "oldPrice": 160.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "M. Smith"
+          }
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf A",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "Health Supplies Inc.",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          },
+          {
+            "name": "Pharma Corp",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john.doe@pharmacorp.com",
+            "website": "https://www.pharmacorp.com"
+          }
+        ]
+      }
+    ],
+    "tags": [
+      {
+        "backgroundColor": "#5AC8FA",
+        "textColor": "#ffffff",
+        "text": "Antibiotic"
+      },
+      {
+        "backgroundColor": "#FFB9C6",
+        "textColor": "#ffffff",
+        "text": "Oral"
+      }
+    ],
+    "alerts": [
+      {
+        "alertType": "Critical",
+        "alertMessage": "Product XYZ is on back order. Expected restock date: 08/15/2024."
+      },
+      {
+        "alertType": "Warning",
+        "alertMessage": "Low inventory for Product ABC. Only 5 units left."
+      },
+      {
+        "alertType": "Information",
+        "alertMessage": "Order #12345 has been placed for Product DEF."
+      },
+      {
+        "alertType": "Critical",
+        "alertMessage": "System detected an issue with the supplier for Product GHI. Please check with the supplier."
+      },
+      {
+        "alertType": "Warning",
+        "alertMessage": "Product JKL will expire in 30 days. Consider using or returning."
+      },
+      {
+        "alertType": "Information",
+        "alertMessage": "New shipment of Product MNO has arrived. Please update inventory."
+      }
+    ],
+    "comments": [
+      {
+        "id": "c1",
+        "createdBy": "admin",
+        "createdOn": "2024-01-01T00:00:00Z",
+        "updatedOn": "2024-01-02T00:00:00Z",
+        "updatedBy": "admin",
+        "topic": "Pregnancy & Breastfeeding",
+        "text": "May cause nausea and diarrhea. If severe, contact your doctor. Sed sollicitudin est tortor, at ultrices purus tristique in. Proin interdum, nisl eget luctus vehicula, velit lorem convallis enim, vel tempor libero eros in lectus. Suspendisse vestibulum risus nisi. Maecenas sit amet ante purus. "
+      },
+      {
+        "id": "c2",
+        "createdBy": "admin",
+        "createdOn": "2024-01-01T00:00:00Z",
+        "updatedOn": "2024-01-02T00:00:00Z",
+        "updatedBy": "admin",
+        "topic": "Storage",
+        "text": "Store at room temperature."
+      },
+      {
+        "id": "c13",
+        "createdBy": "admin",
+        "createdOn": "2024-01-01T00:00:00Z",
+        "updatedOn": "2024-01-02T00:00:00Z",
+        "updatedBy": "admin",
+        "topic": "Dosage Instructions",
+        "text": "Take one capsule every 8 hours."
+      },
+      {
+        "id": "c14",
+        "createdBy": "admin",
+        "createdOn": "2024-01-01T00:00:00Z",
+        "updatedOn": "2024-01-02T00:00:00Z",
+        "updatedBy": "admin",
+        "topic": "Missed Dose",
+        "text": "If you miss a dose, take it as soon as you remember."
+      },
+      {
+        "id": "c15",
+        "createdBy": "admin",
+        "createdOn": "2024-01-01T00:00:00Z",
+        "updatedOn": "2024-01-02T00:00:00Z",
+        "updatedBy": "admin",
+        "topic": "Storage",
+        "text": "Store at room temperature."
+      },
+      {
+        "id": "c16",
+        "createdBy": "admin",
+        "createdOn": "2024-01-01T00:00:00Z",
+        "updatedOn": "2024-01-02T00:00:00Z",
+        "updatedBy": "admin",
+        "topic": "Dosage Instructions",
+        "text": "Take one capsule every 8 hours."
+      },
+      {
+        "id": "c17",
+        "createdBy": "admin",
+        "createdOn": "2024-01-01T00:00:00Z",
+        "updatedOn": "2024-01-02T00:00:00Z",
+        "updatedBy": "admin",
+        "topic": "Missed Dose",
+        "text": "If you miss a dose, take it as soon as you remember."
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "createdBy": "admin",
+    "createdOn": "2024-01-01T00:00:00Z",
+    "updatedOn": "2024-01-02T00:00:00Z",
+    "updatedBy": "admin",
+    "productType": "Prescription Medication",
+    "isActive": false,
+    "locationId": "loc1",
+    "locationIds": ["loc1"],
+    "locations": ["Shelf B", "Counter"],
+    "name": "Motrin",
+    "description": "Wht Tab \"IBU/200\"|'ADVIL'",
+    "hasInventory": true,
+    "onHandQuantity": 200,
+    "allocationThreshold": 20,
+    "lastAdjustmentDate": "2024-01-01T00:00:00Z",
+    "drugIdentificationNumber": "234567",
+    "brandName": "Advil",
+    "generic": "Ibuprofen",
+    "equivalentTo": "Ibuprofen sodium",
+    "schedule": "Schedule II",
+    "form": "Capsule - Extended Release",
+    "route": "Oral",
+    "strength": 200,
+    "unitOfStrength": "mg",
+    "quickCode": ".IBU200",
+    "imageUrl": "./assets/images/drugs/ibuprofen.jpeg",
+    "others": {
+      "isReportable": false,
+      "priceGroup": "High Cost",
+      "department": "Neurology",
+      "genericType": "Brand Single Source",
+      "followUp": "6 months",
+      "feeForService": "Yes",
+      "defaultSIG": "Apply twice daily",
+      "handlingInstructions": "Keep away from light",
+      "marketingMessage": "Relief for neurological pain. Apo-Ciproflox is used to treat various bacterial infections. It belongs to a class of drugs known as fluoroquinolones...",
+      "class": "24.06.08.00",
+      "clinicalForm": "Capsule",
+      "oralWritten": "Written"
+    },
+    "clinicalFlags": {
+      "isWardStock": true,
+      "isPrintComplianceCalendar": false,
+      "isTrial": true,
+      "isEligibleForCoupon": false
+    },
+    "manufacturer": {
+      "name": "HealthCo"
+    },
+    "packInfo": [
+      {
+        "size": 50,
+        "unit": "tab",
+        "description": "50 tablets pack",
+        "UPC": "123456789012",
+        "onHandQuantity": 30,
+        "minOrderQuantity": 5,
+        "maxOrderQuantity": 200,
+        "isPackActive": true,
+        "packStatus": "Discontinued",
+        "isCounterAvailable": true,
+        "defaultVendor": "Vendor C",
+        "quickCode": ".IBU50",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "123456789013",
+            "isDefault": false
+          },
+          {
+            "type": "GTIN",
+            "value": "123456789016",
+            "isDefault": false
+          },
+          {
+            "type": "EAN",
+            "value": "123456789017",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 10.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 8.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          },
+          {
+            "price": 15.0,
+            "priceColumn": "Retail",
+            "oldPrice": 12.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 12.0,
+            "priceColumn": "Wholesale",
+            "oldPrice": 10.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+      
+          },
+          {
+            "price": 17.0,
+            "priceColumn": "User Cost 1",
+            "oldPrice": 15.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 18.0,
+            "priceColumn": "User Cost 2",
+            "oldPrice": 16.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "M. Smith"
+          },
+          {
+            "price": 19.0,
+            "priceColumn": "User Cost 3",
+            "oldPrice": 17.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Store Manager"
+          }
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf A",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john.doe@mckesson.com",
+            "website": "https://www.mckesson.com"
+          },
+          {
+            "name": "Health Supplies Inc.",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          }
+        ]
+      },
+      {
+        "size": 100,
+        "unit": "tab",
+        "description": "100 tablets pack",
+        "UPC": "123456789013",
+        "onHandQuantity": 15,
+        "minOrderQuantity": 2,
+        "maxOrderQuantity": 100,
+        "isPackActive": true,
+        "packStatus": "Discontinued",
+        "isCounterAvailable": true,
+        "defaultVendor": "Vendor D",
+        "quickCode": ".IBU100",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "123456789013",
+            "isDefault": false
+          },
+          {
+            "type": "NPN",
+            "value": "123456789014",
+            "isDefault": true
+          },
+          {
+            "type": "EAN",
+            "value": "123456789017",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 18.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 15.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          }
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Counter",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B4",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B5",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Safe",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "Health Supplies Inc.",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          },
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john@mk.com",
+            "website": "https://www.mckesson.com"
+          }
+        ]
+      },
+      {
+        "size": 200,
+        "unit": "tab",
+        "description": "200 tablets pack",
+        "UPC": "123456789014",
+        "onHandQuantity": 8,
+        "minOrderQuantity": 1,
+        "maxOrderQuantity": 50,
+        "isPackActive": true,
+        "packStatus": "Special Order Item",
+        "isCounterAvailable": true,
+        "defaultVendor": "Vendor E",
+        "quickCode": ".IBU200",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "123456789013",
+            "isDefault": false
+          },
+          {
+            "type": "EAN",
+            "value": "123456789017",
+            "isDefault": true
+          }
+        ],
+        "prices": [
+          {
+            "price": 32.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 30.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          }
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf A",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john.doe@mckesson.com",
+            "website": "https://www.mckesson.com"
+          },
+          {
+            "name": "Health Supplies Inc.",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          }
+        ]
+      },
+      {
+        "size": 500,
+        "unit": "tab",
+        "description": "500 tablets pack",
+        "UPC": "123456789015",
+        "onHandQuantity": 5,
+        "minOrderQuantity": 1,
+        "maxOrderQuantity": 20,
+        "isPackActive": true,
+        "packStatus": "Special Order Item",
+        "isCounterAvailable": true,
+        "defaultVendor": "Vendor F",
+        "quickCode": ".IBU500",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "123456789013",
+            "isDefault": false
+          },
+          {
+            "type": "NPN",
+            "value": "123456789014",
+            "isDefault": false
+          },
+          {
+            "type": "HDIN",
+            "value": "123456789015",
+            "isDefault": true
+          }
+        ],
+        "prices": [
+          {
+            "price": 75.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 70.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          },
+          {
+            "price": 100.0,
+            "priceColumn": "Retail",
+            "oldPrice": 90.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 80.0,
+            "priceColumn": "Wholesale",
+            "oldPrice": 70.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 110.0,
+            "priceColumn": "User Cost 1",
+            "oldPrice": 100.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 120.0,
+            "priceColumn": "User Cost 2",
+            "oldPrice": 110.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "M. Smith"
+          },
+          {
+            "price": 130.0,
+            "priceColumn": "User Cost 3",
+            "oldPrice": 120.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "M. Smith"
+          }
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf A",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john.doe@mckesson.com",
+            "website": "https://www.mckesson.com"
+          },
+          {
+            "name": "Health Supplies Inc.",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          }
+        ]
+      }
+    ],
+    "tags": [
+      {
+        "backgroundColor": "#F8E6C2",
+        "textColor": "#000000",
+        "text": "Anti-inflammatory"
+      },
+      {
+        "backgroundColor": "#FFB9C6",
+        "textColor": "#ffffff",
+        "text": "Pain Relief"
+      }
+    ],
+    "alerts": [
+      {
+        "alertType": "Warning",
+        "alertMessage": "Product PQR is nearing reorder point. Review and place a new order soon."
+      },
+      {
+        "alertType": "Critical",
+        "alertMessage": "Urgent: Recall notice for Product STU. Remove from inventory immediately."
+      },
+      {
+        "alertType": "Information",
+        "alertMessage": "Product VWX has a new promotional discount. Update prices accordingly."
+      },
+      {
+        "alertType": "Warning",
+        "alertMessage": "Inventory count mismatch for Product YZA. Please perform a recount."
+      }
+    ],
+    "comments": [
+      {
+        "id": "c3",
+        "createdBy": "admin",
+        "createdOn": "2024-01-01T00:00:00Z",
+        "updatedOn": "2024-01-02T00:00:00Z",
+        "updatedBy": "admin",
+        "topic": "Dosage Instructions",
+        "text": "Take one tablet every 4-6 hours as needed for pain."
+      },
+      {
+        "id": "c4",
+        "createdBy": "admin",
+        "createdOn": "2024-01-01T00:00:00Z",
+        "updatedOn": "2024-01-02T00:00:00Z",
+        "updatedBy": "admin",
+        "topic": "Missed Dose",
+        "text": "If you miss a dose, take it as soon as you remember."
+      }
+    ],
+    "inventory": [
+      {
+        "onHandQuantity": 100,
+        "location": "Counter",
+        "lastAdjustmentDate": "2024-07-19",
+        "expiryDate": "2025-07-19",
+        "lotNumber": "None",
+        "allocationThreshold": 20,
+        "transactions": [
+          {
+            "transactionDate": "2024-07-18",
+            "amount": -10,
+            "reason": "Customer Order",
+            "priorOnHandQuantity": 110,
+            "eventId": 1,
+            "lotNumber": "None",
+            "expiryDate": "2025-07-19"
+          }
+        ]
+      },
+      {
+        "onHandQuantity": 50,
+        "location": "Shelf B",
+        "lastAdjustmentDate": "2024-07-19",
+        "expiryDate": "2025-12-31",
+        "lotNumber": "B456",
+        "allocationThreshold": 10,
+        "transactions": [
+          {
+            "transactionDate": "2024-07-18",
+            "amount": 20,
+            "reason": "Restock",
+            "priorOnHandQuantity": 30,
+            "eventId": 2,
+            "lotNumber": "B456",
+            "expiryDate": "2025-12-31"
+          }
+        ]
+      }
+    ],
+    "vendors": [
+      {
+        "name": "Health Supplies Inc.",
+        "price": 59.99,
+        "caseQty": 1,
+        "itemNum": "I5412325",
+        "isDefault": false,
+        "contact": "Jane Smith",
+        "phone": "098-765-4321",
+        "email": "jane.smith@healthsupplies.com",
+        "website": "https://www.healthsupplies.com"
+      },
+      {
+        "name": "Pharma Corp",
+        "price": 59.99,
+        "caseQty": 1,
+        "itemNum": "I5412325",
+        "isDefault": true,
+        "contact": "John Doe",
+        "phone": "123-456-7890",
+        "email": "john.doe@pharmacorp.com",
+        "website": "https://www.pharmacorp.com"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "createdBy": "admin",
+    "createdOn": "2024-01-01T00:00:00Z",
+    "updatedOn": "2024-01-02T00:00:00Z",
+    "updatedBy": "admin",
+    "productType": "Prescription Medication",
+    "isActive": true,
+    "locationId": "loc1",
+    "locationIds": ["loc1"],
+    "locations": [
+      "Shelf C2",
+      "Safe",
+      "Counter",
+      "Refrigerator",
+      "Drawer B4",
+      "Drawer B5"
+    ],
+    "name": "Metformin",
+    "description": "Wht Tab \"MET/500\"|'GLUCOPHAGE'",
+    "hasInventory": true,
+    "onHandQuantity": 150,
+    "allocationThreshold": 15,
+    "lastAdjustmentDate": "2024-01-01T00:00:00Z",
+    "drugIdentificationNumber": "345678",
+    "brandName": "Glucophage",
+    "generic": "Metformin",
+    "equivalentTo": "Metformin hydrochloride",
+    "schedule": "Schedule III",
+    "form": "Tablet",
+    "route": "Oral",
+    "strength": 500,
+    "unitOfStrength": "mg",
+    "quickCode": ".MET500",
+    "imageUrl": "./assets/images/drugs/metformin.png",
+    "others": {
+      "isReportable": true,
+      "priceGroup": "Specialty",
+      "department": "Dermatology",
+      "genericType": "Brand Multi Source Brand",
+      "followUp": "1 month",
+      "feeForService": "No",
+      "defaultSIG": "Apply once daily",
+      "handlingInstructions": "Store at room temperature, sublingual tablets should be handled with clean dry hands",
+      "marketingMessage": "For clear and healthy skin. Apo-Ciproflox is used to treat various bacterial infections. It belongs to a class of drugs known as fluoroquinolones...",
+      "class": "81.21.80.00",
+      "clinicalForm": "Cream",
+      "oralWritten": "Not Specified"
+    },
+    "clinicalFlags": {
+      "isWardStock": false,
+      "isPrintComplianceCalendar": true,
+      "isTrial": false,
+      "isEligibleForCoupon": true
+    },
+    "manufacturer": {
+      "name": "DiabCare"
+    },
+    "packInfo": [
+      {
+        "size": 30,
+        "unit": "tab",
+        "description": "30 tablets pack",
+        "UPC": "234567890100",
+        "onHandQuantity": 120,
+        "minOrderQuantity": 10,
+        "maxOrderQuantity": 250,
+        "isPackActive": true,
+        "packStatus": "Special Order Item",
+        "isCounterAvailable": true,
+        "defaultVendor": "Vendor I",
+        "quickCode": ".MET30",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "123456789013",
+            "isDefault": false
+          },
+          {
+            "type": "NPN",
+            "value": "123456789014",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 6.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 5.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+
+          },
+          {
+            "price": 9.0,
+            "priceColumn": "Retail",
+            "oldPrice": 7.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 7.0,
+            "priceColumn": "Wholesale",
+            "oldPrice": 6.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 10.0,
+            "priceColumn": "User Cost 1",
+            "oldPrice": 9.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 11.0,
+            "priceColumn": "User Cost 2",
+            "oldPrice": 10.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "M. Smith"
+          },
+          {
+            "price": 12.0,
+            "priceColumn": "User Cost 3",
+            "oldPrice": 11.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Store Manager"
+          }
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf A",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john.doe@mckesson.com",
+            "website": "https://www.mckesson.com"
+          },
+          {
+            "name": "Health Supplies Inc.",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          }
+        ]
+      },
+      {
+        "size": 60,
+        "unit": "tab",
+        "description": "60 tablets pack",
+        "UPC": "234567890101",
+        "onHandQuantity": 90,
+        "minOrderQuantity": 5,
+        "maxOrderQuantity": 200,
+        "isPackActive": true,
+        "packStatus": "Special Order Item",
+        "isCounterAvailable": true,
+        "defaultVendor": "Vendor J",
+        "quickCode": ".MET60",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "123456789013",
+            "isDefault": false
+          },
+          {
+            "type": "NPN",
+            "value": "123456789014",
+            "isDefault": false
+          },
+          {
+            "type": "HDIN",
+            "value": "123456789015",
+            "isDefault": false
+          },
+          {
+            "type": "GTIN",
+            "value": "123456789016",
+            "isDefault": false
+          },
+          {
+            "type": "EAN",
+            "value": "123456789017",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 11.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 10.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          }
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf A",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john.doe@mckesson.com",
+            "website": "https://www.mckesson.com"
+          },
+          {
+            "name": "Health Supplies Inc.",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          }
+        ]
+      },
+      {
+        "size": 90,
+        "unit": "tab",
+        "description": "90 tablets pack",
+        "UPC": "234567890102",
+        "onHandQuantity": 70,
+        "minOrderQuantity": 5,
+        "maxOrderQuantity": 150,
+        "isPackActive": true,
+        "packStatus": "Special Order Item",
+        "isCounterAvailable": true,
+        "defaultVendor": "Vendor K",
+        "quickCode": ".MET90",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "123456789013",
+            "isDefault": false
+          },
+          {
+            "type": "NPN",
+            "value": "123456789014",
+            "isDefault": false
+          },
+          {
+            "type": "HDIN",
+            "value": "123456789015",
+            "isDefault": false
+          },
+          {
+            "type": "GTIN",
+            "value": "123456789016",
+            "isDefault": false
+          },
+          {
+            "type": "EAN",
+            "value": "123456789017",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 15.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 12.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          }
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf A",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john.doe@mckesson.com",
+            "website": "https://www.mckesson.com"
+          },
+          {
+            "name": "Health Supplies Inc.",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          }
+        ]
+      },
+      {
+        "size": 120,
+        "unit": "tab",
+        "description": "120 tablets pack",
+        "UPC": "234567890103",
+        "onHandQuantity": 50,
+        "minOrderQuantity": 2,
+        "maxOrderQuantity": 100,
+        "isPackActive": true,
+        "isCounterAvailable": true,
+        "defaultVendor": "Vendor L",
+        "quickCode": ".MET120",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "123456789013",
+            "isDefault": false
+          },
+          {
+            "type": "NPN",
+            "value": "123456789014",
+            "isDefault": false
+          },
+          {
+            "type": "HDIN",
+            "value": "123456789015",
+            "isDefault": false
+          },
+          {
+            "type": "GTIN",
+            "value": "123456789016",
+            "isDefault": false
+          },
+          {
+            "type": "EAN",
+            "value": "123456789017",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 20.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 18.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          },
+          {
+            "price": 25.0,
+            "priceColumn": "Retail",
+            "oldPrice": 22.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 22.0,
+            "priceColumn": "Wholesale",
+            "oldPrice": 20.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 30.0,
+            "priceColumn": "User Cost 1",
+            "oldPrice": 25.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 35.0,
+            "priceColumn": "User Cost 2",
+            "oldPrice": 30.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "M. Smith"
+          },
+          {
+            "price": 40.0,
+            "priceColumn": "User Cost 3",
+            "oldPrice": 35.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Store Manager"
+          }
+   
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf A",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john.doe@mckesson.com",
+            "website": "https://www.mckesson.com"
+          },
+          {
+            "name": "Health Supplies Inc.",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          }
+        ]
+      }
+    ],
+    "tags": [
+      {
+        "backgroundColor": "#ff00ff",
+        "textColor": "#ffffff",
+        "text": "Antidiabetic"
+      },
+      {
+        "backgroundColor": "#FFB9C6",
+        "textColor": "#ffffff",
+        "text": "Oral"
+      }
+    ],
+    "alerts": [
+      {
+        "alertType": "Information",
+        "alertMessage": "New shipment of Product MNO has arrived. Please update inventory."
+      },
+      {
+        "alertType": "Warning",
+        "alertMessage": "Product PQR is nearing reorder point. Review and place a new order soon."
+      },
+      {
+        "alertType": "Critical",
+        "alertMessage": "Urgent: Recall notice for Product STU. Remove from inventory immediately."
+      },
+      {
+        "alertType": "Information",
+        "alertMessage": "Product VWX has a new promotional discount. Update prices accordingly."
+      },
+      {
+        "alertType": "Warning",
+        "alertMessage": "Inventory count mismatch for Product YZA. Please perform a recount."
+      }
+    ],
+    "comments": [
+      {
+        "id": "c5",
+        "createdBy": "admin",
+        "createdOn": "2024-01-01T00:00:00Z",
+        "updatedOn": "2024-01-02T00:00:00Z",
+        "updatedBy": "admin",
+        "topic": "Diet",
+        "text": "Follow a diabetic diet plan."
+      },
+      {
+        "id": "c6",
+        "createdBy": "admin",
+        "createdOn": "2024-01-01T00:00:00Z",
+        "updatedOn": "2024-01-02T00:00:00Z",
+        "updatedBy": "admin",
+        "topic": "Exercise",
+        "text": "Exercise regularly as advised by your doctor."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "createdBy": "admin",
+    "createdOn": "2024-01-01T00:00:00Z",
+    "updatedOn": "2024-01-02T00:00:00Z",
+    "updatedBy": "admin",
+    "productType": "Prescription Medication",
+    "isActive": true,
+    "locationId": "loc1",
+    "locationIds": ["loc1"],
+    "locations": [
+      "Shelf C2",
+      "Safe",
+      "Counter",
+      "Refrigerator",
+      "Drawer B4",
+      "Drawer B5"
+    ],
+    "name": "Atorvastatin",
+    "description": "Wht Tab \"ATO/40\"|'LIPITOR'",
+    "hasInventory": true,
+    "onHandQuantity": 150,
+    "allocationThreshold": 15,
+    "lastAdjustmentDate": "2024-01-01T00:00:00Z",
+    "drugIdentificationNumber": "456789",
+    "brandName": "Lipitor",
+    "generic": "Atorvastatin",
+    "equivalentTo": "Atorvastatin calcium",
+    "schedule": "Schedule III",
+    "form": "Tablet",
+    "route": "Oral",
+    "strength": 40,
+    "unitOfStrength": "mg",
+    "quickCode": ".ATO40",
+    "imageUrl": "./assets/images/drugs/atorvastatin.png",
+    "others": {
+      "isReportable": false,
+      "priceGroup": "Brand",
+      "department": "Gastroenterology",
+      "genericType": "Generic Single Source",
+      "followUp": "2 weeks",
+      "feeForService": "Yes",
+      "defaultSIG": "1 tablet by mouth twice daily",
+      "handlingInstructions": "Refrigerate after opening. Store at room temperature, sublingual tablets should be handled with clean dry hands",
+      "marketingMessage": "Effective for digestive health. Apo-Ciproflox is used to treat various bacterial infections. It belongs to a class of drugs known as fluoroquinolones...",
+      "class": "24.06.08.00",
+      "clinicalForm": "Liquid",
+      "oralWritten": "Oral"
+    },
+    "clinicalFlags": {
+      "isWardStock": true,
+      "isPrintComplianceCalendar": true,
+      "isTrial": true,
+      "isEligibleForCoupon": false
+    },
+    "manufacturer": {
+      "name": "CholesterolCare"
+    },
+    "packInfo": [
+      {
+        "size": 30,
+        "unit": "tab",
+        "description": "30 tablets pack",
+        "UPC": "345678901200",
+        "onHandQuantity": 110,
+        "minOrderQuantity": 10,
+        "maxOrderQuantity": 300,
+        "isPackActive": true,
+        "packStatus": "Special Order Item",
+        "isCounterAvailable": true,
+        "defaultVendor": "Vendor M",
+        "quickCode": ".ATO30",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "123456789013",
+            "isDefault": false
+          },
+          {
+            "type": "NPN",
+            "value": "123456789014",
+            "isDefault": false
+          },
+          {
+            "type": "HDIN",
+            "value": "123456789015",
+            "isDefault": false
+          },
+          {
+            "type": "GTIN",
+            "value": "123456789016",
+            "isDefault": false
+          },
+          {
+            "type": "EAN",
+            "value": "123456789017",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 8.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 7.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          }
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Counter",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B4",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B5",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Safe",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "Health Supplies Inc.",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          },
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john@mk.com",
+            "website": "https://www.mckesson.com"
+          }
+        ]
+      },
+      {
+        "size": 60,
+        "unit": "tab",
+        "description": "60 tablets pack",
+        "UPC": "345678901201",
+        "onHandQuantity": 80,
+        "minOrderQuantity": 5,
+        "maxOrderQuantity": 250,
+        "isPackActive": true,
+        "packStatus": "Special Order Item",
+        "isCounterAvailable": true,
+        "defaultVendor": "Vendor N",
+        "quickCode": ".ATO60",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "123456789013",
+            "isDefault": false
+          },
+          {
+            "type": "NPN",
+            "value": "123456789014",
+            "isDefault": false
+          },
+          {
+            "type": "HDIN",
+            "value": "123456789015",
+            "isDefault": false
+          },
+          {
+            "type": "GTIN",
+            "value": "123456789016",
+            "isDefault": false
+          },
+          {
+            "type": "EAN",
+            "value": "123456789017",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 14.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 12.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          
+          },
+          {
+            "price": 18.0,
+            "priceColumn": "Retail",
+            "oldPrice": 15.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 16.0,
+            "priceColumn": "Wholesale",
+            "oldPrice": 14.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 20.0,
+            "priceColumn": "User Cost 1",
+            "oldPrice": 18.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "McKesson"
+          },
+          {
+            "price": 22.0,
+            "priceColumn": "User Cost 2",
+            "oldPrice": 20.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "M. Smith"
+          },
+          {
+            "price": 24.0,
+            "priceColumn": "User Cost 3",
+            "oldPrice": 22.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Store Manager"
+          }
+          
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Counter",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B4",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B5",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Safe",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "Health Supplies Inc.",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          },
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john@mk.com",
+            "website": "https://www.mckesson.com"
+          }
+        ]
+      },
+      {
+        "size": 90,
+        "unit": "tab",
+        "description": "90 tablets pack",
+        "UPC": "345678901202",
+        "onHandQuantity": 60,
+        "minOrderQuantity": 5,
+        "maxOrderQuantity": 200,
+        "isPackActive": true,
+        "packStatus": "Special Order Item",
+        "isCounterAvailable": true,
+        "defaultVendor": "Vendor O",
+        "quickCode": ".ATO90",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "123456789013",
+            "isDefault": false
+          },
+          {
+            "type": "NPN",
+            "value": "123456789014",
+            "isDefault": false
+          },
+          {
+            "type": "HDIN",
+            "value": "123456789015",
+            "isDefault": false
+          },
+          {
+            "type": "GTIN",
+            "value": "123456789016",
+            "isDefault": false
+          },
+          {
+            "type": "EAN",
+            "value": "123456789017",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 20.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 18.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          }
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Counter",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B4",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B5",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Safe",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "Health Supplies Inc.",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          },
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john@mk.com",
+            "website": "https://www.mckesson.com"
+          }
+        ]
+      },
+      {
+        "size": 120,
+        "unit": "tab",
+        "description": "120 tablets pack",
+        "UPC": "345678901203",
+        "onHandQuantity": 40,
+        "minOrderQuantity": 2,
+        "maxOrderQuantity": 150,
+        "isPackActive": true,
+        "packStatus": "Special Order Item",
+        "isCounterAvailable": true,
+        "defaultVendor": "Vendor P",
+        "quickCode": ".ATO120",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "123456789013",
+            "isDefault": false
+          },
+          {
+            "type": "NPN",
+            "value": "123456789014",
+            "isDefault": false
+          },
+          {
+            "type": "HDIN",
+            "value": "123456789015",
+            "isDefault": false
+          },
+          {
+            "type": "GTIN",
+            "value": "123456789016",
+            "isDefault": false
+          },
+          {
+            "type": "EAN",
+            "value": "123456789017",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 26.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 24.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          }
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Counter",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B4",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B5",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Safe",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "Health Supplies Inc.",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          },
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john@mk.com",
+            "website": "https://www.mckesson.com"
+          }
+        ]
+      }
+    ],
+    "tags": [
+      {
+        "backgroundColor": "#FFB9C6",
+        "textColor": "#ffffff",
+        "text": "Cholesterol"
+      },
+      {
+        "backgroundColor": "#ffffff",
+        "textColor": "#000000",
+        "text": "Cardiovascular"
+      }
+    ],
+    "alerts": [
+      {
+        "alertType": "Critical",
+        "alertMessage": "Product XYZ is on back order. Expected restock date: 08/15/2024."
+      },
+      {
+        "alertType": "Warning",
+        "alertMessage": "Low inventory for Product ABC. Only 5 units left."
+      },
+      {
+        "alertType": "Information",
+        "alertMessage": "Order #12345 has been placed for Product DEF."
+      }
+    ],
+    "comments": [
+      {
+        "id": "c7",
+        "createdBy": "admin",
+        "createdOn": "2024-01-01T00:00:00Z",
+        "updatedOn": "2024-01-02T00:00:00Z",
+        "updatedBy": "admin",
+        "topic": "Side Effects",
+        "text": "May cause muscle pain or weakness."
+      },
+      {
+        "id": "c8",
+        "createdBy": "admin",
+        "createdOn": "2024-01-01T00:00:00Z",
+        "updatedOn": "2024-01-02T00:00:00Z",
+        "updatedBy": "admin",
+        "topic": "Dosage Instructions",
+        "text": "Take one tablet daily."
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "createdBy": "admin",
+    "createdOn": "2024-01-01T00:00:00Z",
+    "updatedOn": "2024-01-02T00:00:00Z",
+    "updatedBy": "admin",
+    "productType": "Prescription Medication",
+    "isActive": true,
+    "locationId": "loc1",
+    "locationIds": ["loc1"],
+    "locations": [
+      "Shelf C2",
+      "Safe",
+      "Counter",
+      "Refrigerator",
+      "Drawer B4",
+      "Drawer B5"
+    ],
+    "name": "Losartan",
+    "description": "Wht Tab \"LOS/50\"|'COZAAR'",
+    "hasInventory": true,
+    "onHandQuantity": 150,
+    "allocationThreshold": 15,
+    "lastAdjustmentDate": "2024-01-01T00:00:00Z",
+    "drugIdentificationNumber": "567890",
+    "brandName": "Cozaar",
+    "generic": "Losartan",
+    "equivalentTo": "Losartan potassium",
+    "schedule": "Schedule III",
+    "form": "Tablet",
+    "route": "Oral",
+    "strength": 50,
+    "unitOfStrength": "mg",
+    "quickCode": ".LOS50",
+    "imageUrl": "./assets/images/drugs/lisinopril.jpeg",
+    "others": {
+      "isReportable": true,
+      "priceGroup": "Standard",
+      "department": "Pediatrics",
+      "genericType": "Brand Multi Source Generic",
+      "followUp": "1 year",
+      "feeForService": "No",
+      "defaultSIG": "Take half a tablet daily",
+      "handlingInstructions": "Refrigerate after opening. Store at room temperature, sublingual tablets should be handled with clean dry hands",
+      "marketingMessage": "Safe for children. Apo-Ciproflox is used to treat various bacterial infections. It belongs to a class of drugs known as fluoroquinolones...",
+      "class": "81.21.80.00",
+      "clinicalForm": "Tablet",
+      "oralWritten": "Oral"
+    },
+    "clinicalFlags": {
+      "isWardStock": false,
+      "isPrintComplianceCalendar": false,
+      "isTrial": false,
+      "isEligibleForCoupon": true
+    },
+    "manufacturer": {
+      "name": "HeartCare"
+    },
+    "packInfo": [
+      {
+        "size": 30,
+        "unit": "tab",
+        "description": "30 tablets pack",
+        "UPC": "456789012300",
+        "onHandQuantity": 130,
+        "minOrderQuantity": 10,
+        "maxOrderQuantity": 300,
+        "isPackActive": true,
+        "packStatus": "Special Order Item",
+        "isCounterAvailable": true,
+        "defaultVendor": "Vendor Q",
+        "quickCode": ".LOS30",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "123456789013",
+            "isDefault": false
+          },
+          {
+            "type": "NPN",
+            "value": "123456789014",
+            "isDefault": false
+          },
+          {
+            "type": "HDIN",
+            "value": "123456789015",
+            "isDefault": false
+          },
+          {
+            "type": "GTIN",
+            "value": "123456789016",
+            "isDefault": false
+          },
+          {
+            "type": "EAN",
+            "value": "123456789017",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 7.5,
+            "priceColumn": "Purchase",
+            "oldPrice": 6.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          }
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Counter",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B4",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B5",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Safe",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "Health Supplies Inc.",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          },
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john@mk.com",
+            "website": "https://www.mckesson.com"
+          }
+        ]
+      },
+      {
+        "size": 60,
+        "unit": "tab",
+        "description": "60 tablets pack",
+        "UPC": "456789012301",
+        "onHandQuantity": 100,
+        "minOrderQuantity": 5,
+        "maxOrderQuantity": 250,
+        "isPackActive": true,
+        "packStatus": "Special Order Item",
+        "isCounterAvailable": true,
+        "defaultVendor": "Vendor R",
+        "quickCode": ".LOS60",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "123456789013",
+            "isDefault": false
+          },
+          {
+            "type": "NPN",
+            "value": "123456789014",
+            "isDefault": false
+          },
+          {
+            "type": "HDIN",
+            "value": "123456789015",
+            "isDefault": false
+          },
+          {
+            "type": "GTIN",
+            "value": "123456789016",
+            "isDefault": false
+          },
+          {
+            "type": "EAN",
+            "value": "123456789017",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 13.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 11.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          },
+          {
+            "price": 15.0,
+            "priceColumn": "Retail",
+            "oldPrice": 14.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          }
+       
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Counter",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B4",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B5",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Safe",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "Health Supplies Inc.",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          },
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john@mk.com",
+            "website": "https://www.mckesson.com"
+          }
+        ]
+      },
+      {
+        "size": 90,
+        "unit": "tab",
+        "description": "90 tablets pack",
+        "UPC": "456789012302",
+        "onHandQuantity": 70,
+        "minOrderQuantity": 5,
+        "maxOrderQuantity": 200,
+        "isPackActive": true,
+        "packStatus": "Special Order Item",
+        "isCounterAvailable": false,
+        "defaultVendor": "Vendor S",
+        "quickCode": ".LOS90",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "123456789013",
+            "isDefault": false
+          },
+          {
+            "type": "NPN",
+            "value": "123456789014",
+            "isDefault": false
+          },
+          {
+            "type": "HDIN",
+            "value": "123456789015",
+            "isDefault": false
+          },
+          {
+            "type": "GTIN",
+            "value": "123456789016",
+            "isDefault": false
+          },
+          {
+            "type": "EAN",
+            "value": "123456789017",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 18.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 16.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          },
+          {
+            "price": 20.0,
+            "priceColumn": "Retail",
+            "oldPrice": 19.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          }
+        
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Counter",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B4",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B5",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Safe",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "Health Supplies Inc.",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          },
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john@mk.com",
+            "website": "https://www.mckesson.com"
+          }
+        ]
+      },
+      {
+        "size": 120,
+        "unit": "tab",
+        "description": "120 tablets pack",
+        "UPC": "456789012303",
+        "onHandQuantity": 50,
+        "minOrderQuantity": 2,
+        "maxOrderQuantity": 150,
+        "isPackActive": true,
+        "packStatus": "Special Order Item",
+        "isCounterAvailable": true,
+        "defaultVendor": "Vendor T",
+        "quickCode": ".LOS120",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "123456789013",
+            "isDefault": false
+          },
+          {
+            "type": "NPN",
+            "value": "123456789014",
+            "isDefault": false
+          },
+          {
+            "type": "HDIN",
+            "value": "123456789015",
+            "isDefault": false
+          },
+          {
+            "type": "GTIN",
+            "value": "123456789016",
+            "isDefault": false
+          },
+          {
+            "type": "EAN",
+            "value": "123456789017",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 23.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 21.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          }
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Counter",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B4",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B5",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Safe",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "Health Supplies Inc.",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          },
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john@mk.com",
+            "website": "https://www.mckesson.com"
+          }
+        ]
+      }
+    ],
+    "tags": [
+      {
+        "backgroundColor": "#FFB9C6",
+        "textColor": "#ffffff",
+        "text": "Hypertension"
+      },
+      {
+        "backgroundColor": "#ffffff",
+        "textColor": "#000000",
+        "text": "Cardiovascular"
+      }
+    ],
+    "alerts": [
+      {
+        "alertType": "Critical",
+        "alertMessage": "Product XYZ is on back order. Expected restock date: 08/15/2024."
+      },
+      {
+        "alertType": "Warning",
+        "alertMessage": "Low inventory for Product ABC. Only 5 units left."
+      },
+      {
+        "alertType": "Information",
+        "alertMessage": "Order #12345 has been placed for Product DEF."
+      }
+    ],
+    "comments": [
+      {
+        "id": "c9",
+        "createdBy": "admin",
+        "createdOn": "2024-01-01T00:00:00Z",
+        "updatedOn": "2024-01-02T00:00:00Z",
+        "updatedBy": "admin",
+        "topic": "Side Effects",
+        "text": "May cause dry cough."
+      },
+      {
+        "id": "c10",
+        "createdBy": "admin",
+        "createdOn": "2024-01-01T00:00:00Z",
+        "updatedOn": "2024-01-02T00:00:00Z",
+        "updatedBy": "admin",
+        "topic": "Storage",
+        "text": "Store in a dry place."
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "createdBy": "admin",
+    "createdOn": "2024-01-01T00:00:00Z",
+    "updatedOn": "2024-01-02T00:00:00Z",
+    "updatedBy": "admin",
+    "productType": "Prescription Medication",
+    "isActive": true,
+    "locationId": "loc1",
+    "locationIds": ["loc1"],
+    "locations": [
+      "Shelf C2",
+      "Safe",
+      "Counter",
+      "Refrigerator",
+      "Drawer B4",
+      "Drawer B5"
+    ],
+    "name": "Warfarin",
+    "description": "Wht Tab \"WAR/5\"|'COUMADIN'",
+    "hasInventory": true,
+    "onHandQuantity": 150,
+    "allocationThreshold": 15,
+    "lastAdjustmentDate": "2024-01-01T00:00:00Z",
+    "drugIdentificationNumber": "678901",
+    "brandName": "Coumadin",
+    "generic": "Warfarin",
+    "equivalentTo": "Warfarin sodium",
+    "schedule": "Schedule IV",
+    "form": "Tablet",
+    "route": "Oral",
+    "strength": 5,
+    "unitOfStrength": "mg",
+    "quickCode": ".WAR5",
+    "imageUrl": "./assets/images/drugs/albuterol.jpg",
+    "others": {
+      "isReportable": false,
+      "priceGroup": "Generic",
+      "department": "Oncology",
+      "genericType": "Generic Multi Source",
+      "followUp": "6 months",
+      "feeForService": "Yes",
+      "defaultSIG": "Take on an empty stomach",
+      "handlingInstructions": "Keep in original container. Refrigerate after opening. Store at room temperature, sublingual tablets should be handled with clean dry hands",
+      "marketingMessage": "Apo-Ciproflox is used to treat various bacterial infections. It belongs to a class of drugs known as fluoroquinolones... Apo-Ciproflox is used to treat various bacterial infections. It belongs to a class of drugs known as fluoroquinolones... Apo-Ciproflox is used to treat various bacterial infections. It belongs to a class of drugs known as fluoroquinolones... Apo-Ciproflox is used to treat various bacterial infections. It belongs to a class of drugs known as fluoroquinolones...",
+      "class": "24.06.08.00",
+      "clinicalForm": "Injection",
+      "oralWritten": "Written"
+    },
+    "clinicalFlags": {
+      "isWardStock": true,
+      "isPrintComplianceCalendar": true,
+      "isTrial": true,
+      "isEligibleForCoupon": false
+    },
+    "manufacturer": {
+      "name": "ClotCare"
+    },
+    "packInfo": [
+      {
+        "size": 30,
+        "unit": "tab",
+        "description": "30 tablets pack",
+        "UPC": "567890123400",
+        "onHandQuantity": 90,
+        "minOrderQuantity": 10,
+        "maxOrderQuantity": 250,
+        "isPackActive": true,
+        "packStatus": "Special Order Item",
+        "isCounterAvailable": true,
+        "defaultVendor": "Vendor U",
+        "quickCode": ".WAR30",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "123456789013",
+            "isDefault": false
+          },
+          {
+            "type": "NPN",
+            "value": "123456789014",
+            "isDefault": false
+          },
+          {
+            "type": "HDIN",
+            "value": "123456789015",
+            "isDefault": false
+          },
+          {
+            "type": "GTIN",
+            "value": "123456789016",
+            "isDefault": false
+          },
+          {
+            "type": "EAN",
+            "value": "123456789017",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 5.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 4.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          }
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Counter",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B4",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B5",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Safe",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "Health Supplies Inc.",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          },
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john@mk.com",
+            "website": "https://www.mckesson.com"
+          }
+        ]
+      },
+      {
+        "size": 60,
+        "unit": "tab",
+        "description": "60 tablets pack",
+        "UPC": "567890123401",
+        "onHandQuantity": 70,
+        "minOrderQuantity": 5,
+        "maxOrderQuantity": 200,
+        "isPackActive": true,
+        "packStatus": "Special Order Item",
+        "isCounterAvailable": true,
+        "defaultVendor": "Vendor V",
+        "quickCode": ".WAR60",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "123456789013",
+            "isDefault": false
+          },
+          {
+            "type": "NPN",
+            "value": "123456789014",
+            "isDefault": false
+          },
+          {
+            "type": "HDIN",
+            "value": "123456789015",
+            "isDefault": false
+          },
+          {
+            "type": "GTIN",
+            "value": "123456789016",
+            "isDefault": false
+          },
+          {
+            "type": "EAN",
+            "value": "123456789017",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 9.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 8.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          },
+          {
+            "price": 10.0,
+            "priceColumn": "Retail",
+            "oldPrice": 9.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          },
+          {
+            "price": 9.0,
+            "priceColumn": "Wholesale",
+            "oldPrice": 8.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          }
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Counter",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B4",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B5",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Safe",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "Health Supplies Inc.",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          },
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john@mk.com",
+            "website": "https://www.mckesson.com"
+          }
+        ]
+      },
+      {
+        "size": 90,
+        "unit": "tab",
+        "description": "90 tablets pack",
+        "UPC": "567890123402",
+        "onHandQuantity": 50,
+        "minOrderQuantity": 5,
+        "maxOrderQuantity": 150,
+        "isPackActive": true,
+        "packStatus": "Special Order Item",
+        "isCounterAvailable": true,
+        "defaultVendor": "Vendor W",
+        "quickCode": ".WAR90",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "PDIN",
+            "value": "123456789013",
+            "isDefault": false
+          },
+          {
+            "type": "NPN",
+            "value": "123456789014",
+            "isDefault": false
+          },
+          {
+            "type": "HDIN",
+            "value": "123456789015",
+            "isDefault": false
+          },
+          {
+            "type": "GTIN",
+            "value": "123456789016",
+            "isDefault": false
+          },
+          {
+            "type": "EAN",
+            "value": "123456789017",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 13.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 12.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          },
+          {
+            "price": 15.0,
+            "priceColumn": "Retail",
+            "oldPrice": 14.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          },
+          {
+            "price": 13.0,
+            "priceColumn": "Wholesale",
+            "oldPrice": 12.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          }
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Counter",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B4",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B5",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Safe",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "Health Supplies Inc.",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          },
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john@mk.com",
+            "website": "https://www.mckesson.com"
+          }
+        ]
+      },
+      {
+        "size": 120,
+        "unit": "tab",
+        "description": "120 tablets pack",
+        "UPC": "567890123403",
+        "onHandQuantity": 30,
+        "minOrderQuantity": 2,
+        "maxOrderQuantity": 100,
+        "isPackActive": true,
+        "packStatus": "Special Order Item",
+        "isCounterAvailable": true,
+        "defaultVendor": "Vendor X",
+        "quickCode": ".WAR120",
+        "plans": [
+          {
+            "planName": "Standard Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": true
+          },
+          {
+            "planName": "Premium Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": true,
+            "isDefault": false
+          },
+          {
+            "planName": "Basic Coverage",
+            "planType": "Insurance",
+            "isPlanCovered": false,
+            "isDefault": false
+          }
+        ],
+        "UPCs": [
+          {
+            "type": "UPC",
+            "value": "123456789012",
+            "isDefault": true
+          },
+          {
+            "type": "HDIN",
+            "value": "123456789015",
+            "isDefault": false
+          }
+        ],
+        "prices": [
+          {
+            "price": 17.0,
+            "priceColumn": "Purchase",
+            "oldPrice": 16.0,
+            "changedOn": "2024-01-01T00:00:00Z",
+            "changedBy": "Head Office"
+          }
+        ],
+        "inventory": [
+          {
+            "onHandQuantity": 100,
+            "location": "Refrigerator",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-07-19",
+            "lotNumber": "A123",
+            "allocationThreshold": 20,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": -10,
+                "reason": "Customer Order",
+                "priorOnHandQuantity": 110,
+                "eventId": 1,
+                "lotNumber": "A123",
+                "expiryDate": "2025-07-19"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Counter",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B4",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Drawer B5",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Safe",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          },
+          {
+            "onHandQuantity": 50,
+            "location": "Shelf C2",
+            "lastAdjustmentDate": "2024-07-19",
+            "expiryDate": "2025-12-31",
+            "lotNumber": "B456",
+            "allocationThreshold": 10,
+            "transactions": [
+              {
+                "transactionDate": "2024-07-18",
+                "amount": 20,
+                "reason": "Restock",
+                "priorOnHandQuantity": 30,
+                "eventId": 2,
+                "lotNumber": "B456",
+                "expiryDate": "2025-12-31"
+              }
+            ]
+          }
+        ],
+        "vendors": [
+          {
+            "name": "Health Supplies Inc.",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": false,
+            "contact": "Jane Smith",
+            "phone": "098-765-4321",
+            "email": "jane.smith@healthsupplies.com",
+            "website": "https://www.healthsupplies.com"
+          },
+          {
+            "name": "McKesson",
+            "price": 59.99,
+            "caseQty": 1,
+            "itemNum": "I5412325",
+            "isDefault": true,
+            "contact": "John Doe",
+            "phone": "123-456-7890",
+            "email": "john@mk.com",
+            "website": "https://www.mckesson.com"
+          }
+        ]
+      }
+    ],
+    "tags": [
+      {
+        "backgroundColor": "#FFB9C6",
+        "textColor": "#ffffff",
+        "text": "Anticoagulant"
+      },
+      {
+        "backgroundColor": "#ffffff",
+        "textColor": "#000000",
+        "text": "Cardiovascular"
+      }
+    ],
+    "alerts": [
+      {
+        "alertType": "Critical",
+        "alertMessage": "Product XYZ is on back order. Expected restock date: 08/15/2024."
+      },
+      {
+        "alertType": "Warning",
+        "alertMessage": "Low inventory for Product ABC. Only 5 units left."
+      },
+      {
+        "alertType": "Information",
+        "alertMessage": "Order #12345 has been placed for Product DEF."
+      }
+    ],
+    "comments": [
+      {
+        "id": "c11",
+        "createdBy": "admin",
+        "createdOn": "2024-01-01T00:00:00Z",
+        "updatedOn": "2024-01-02T00:00:00Z",
+        "updatedBy": "admin",
+        "topic": "Dosage Instructions",
+        "text": "Take one tablet daily at the same time."
+      },
+      {
+        "id": "c12",
+        "createdBy": "admin",
+        "createdOn": "2024-01-01T00:00:00Z",
+        "updatedOn": "2024-01-02T00:00:00Z",
+        "updatedBy": "admin",
+        "topic": "Storage",
+        "text": "Store at room temperature."
+      }
+    ]
+  }
+]
