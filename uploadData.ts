@@ -9,7 +9,7 @@ admin.initializeApp({
 });
 
 const uploadData = async () => {
-  const filePath = path.join(__dirname, './product-list.data.json');
+  const filePath = path.join(__dirname, './product-item-customized-tags.data.json');
   const jsonData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
   const db = admin.firestore();
@@ -17,7 +17,7 @@ const uploadData = async () => {
   const batch = db.batch();
 
   jsonData.forEach((product: any) => {
-    const docRef = db.collection('product').doc(product.id);
+    const docRef = db.collection('product_tag').doc(product.id);
     batch.set(docRef, product);
   });
 

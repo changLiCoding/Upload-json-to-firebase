@@ -1,0 +1,1 @@
+run `npx ts-node uploadData.ts` to upload data to firebase
